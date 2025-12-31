@@ -20,7 +20,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <!-- Main CSS -->
   <link href="assets/css/main.css" rel="stylesheet" />
-  <link rel="icon" type="image/png" href="assets/images/Pranav India PP 1.jpg">
+  <link rel="icon" type="image/png" href="assets/images/Pranav.jpg">
   <title>Pranav Kizhakkevellat Nair Personal Website</title>
 </head>
 
@@ -31,7 +31,7 @@
       <div class="ds-header-inner">
         <!-- logo -->
         <a href="index.html" class="ds-logo">
-          <span><img src="assets/images/Pranav India PP 1.jpg" /></span>Pranav Kizhakkevellat Nair
+          <span><img src="assets/images/Pranav.jpg" /></span>Pranav Kizhakkevellat Nair
         </a>
         <!-- logo -->
         <!-- social -->
@@ -59,7 +59,7 @@
       <div class="row">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
           <figure>
-            <img src="assets/images/Pranav India PP 1.jpg" style="width: 300px; height: 300px; border-radius: 100%; object-fit: contain;" />
+            <img src="assets/images/Pranav.jpg" style="width: 300px; height: 300px; border-radius: 100%; object-fit: contain;" />
           </figure>
         </div>
         <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
@@ -75,7 +75,7 @@
                 DS/ML/DA Resume</a>
             </div> -->
             <div class="ds-button-sec mt-4">
-              <a href="assets/pdfs/Pranav_K_Nair_Resume_SDE.pdf" target="_blank" class="ds-button">Download
+              <a href="assets/pdfs/Pranav_K_Nair_Resume.pdf" target="_blank" class="ds-button">Download
                 My Resume</a>
             </div>
           </section>
@@ -187,24 +187,24 @@
                 automotive solutions, compilers, and performance optimization for 
                 heterogeneous computing environments.</p>
 
+              <li>Led a team to develop high-performance computing solutions on ML 
+                systems utilizing CPU parallelization (OpenMP, AVX2) and GPU 
+                acceleration (CUDA), achieving <mark style="background-color: yellow;">10x</mark> 
+                performance improvement across different hardware architectures</li>
+
               <li>Enhanced LLVM-MCTOLL Binary Translator for a customer to convert 
                 ARM architecture Android APKs to x86. Implemented performance 
                 optimizations that reduced execution time by <mark style="background-color: yellow;">33%</mark></li>
               
-              <li>Led a team to develop high-performance computing solutions on ML 
-                systems utilizing CPU parallelization (OpenMP, AVX2) and GPU 
-                acceleration (CUDA) to optimize algorithm execution across different 
-                hardware architectures, and improved the performance by <mark style="background-color: yellow;">10x</mark></li>
-
               <li>Designed and implemented testing and validation pipelines 
                 through Shell and Python scripting to ensure output correctness</li>
 
-              <li>Analyzed profiling data from Android Studio and Nsight to 
-                benchmark performance and identify bottlenecks within the code</li>
+              <li>Analyzed profiling data from Android Studio and Nvidia Nsight to 
+                benchmark performance and identify & eliminate bottlenecks</li>
 
-              <li>Collaborated in Agile development environments using industry-standard
-                tools and methodologies, contributing to cross-functional team success
-                and project delivery</li>
+              <li>Collaborated in Agile Scrum development environments using 
+                industry-standard tools and methodologies, contributing to 
+                cross-functional team success and project delivery</li>
             </ul>
           </section>
         </div>
@@ -300,16 +300,19 @@
             <li>PyTorch</li>
             <li>TensorFlow</li>
             <li>Keras</li>
+            <li>LangChain</li>
+            <li>OpenCV</li>
             <li>OpenMP</li>
             <li>OpenMPI</li>
             <li>AVX</li>
             <li>CUDA</li>
             <li>Docker</li>
-            <li>OpenCV</li>
             <li>MediaPipe</li>
             <li>Pandas</li>
             <li>Scikit-Learn</li>
             <li>NumPy</li>
+            <li>Streamlit</li>
+            <li>ROS</li>
             <li>Microsoft Power BI</li>
             <li>Tableau</li>
             <li>Matplotlib</li>
@@ -317,7 +320,18 @@
             <li>Jira</li>
             <li>Confluence</li>
             <li>Bitbucket</li>
-            <li>ROS</li>
+            <li>VS Code</li>
+            <li>Jupyter Notebook</li>
+            <li>PyCharm</li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <h2 class="ds-heading">Databases</h2>
+          <ul class="ds-skills-list">
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>SQL Server</li>
+            <li>ChromaDB</li>
           </ul>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -341,37 +355,44 @@
       <h2 class="ds-heading">Project Showcase</h2>
       <div class="ds-work-list-section">
 
-        <!-- FRUAD DETECTION SYSTEM -->
+        <!-- LLM Cold Email Generator -->
 
         <div class="ds-work-list">
           <div class="row">
             <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
               <section>
-                <h3 class="ds-work-title">Fraud Detection System</h3>
+                <h3 class="ds-work-tilte">
+                  LLM Cold Email Generator
+                </h3>
                 <p>
-                  DON'T REDEEM THE GIFT CARD. But more importantly, how do you (or a bank)
-                  tell whether there's a fraudster scamming people out of their money? Into
-                  this project, I dove deep into the world of financial fraud detection to
-                  build a machine learning system that can spot suspicious transactions before
-                  they empty someone's bank account. Starting with exploratory data analysis
-                  and hypothesis testing, I engineered features and preprocessed the dataset
-                  to handle both numerical and categorical data. After establishing a baseline,
-                  I put multiple ML models to the test, comparing their performance through
-                  cross-validation. XGBoost emerged as the champion, so I fine-tuned it using
-                  hyperparameter optimization and deployed the final model through a Streamlit
-                  web application. Because sometimes the best defense against fraud is a good
-                  algorithm that never sleeps!
+                  Ever had anxiety while staring at a blank email draft, unsure of how to perfectly 
+                  pitch yourself for that dream job? Well, your writers block ends here! This project 
+                  harnesses the power of AI to transform the tedious task of crafting personalized 
+                  cold emails into a breeze. Using LangChain and state-of-the-art LLMs like Llama 
+                  and OpenAI GPT, I built a system that scrapes job postings, analyzes your resume, 
+                  and generates tailored application emails.
                 </p>
-                <!-- <a href="https://drive.google.com/file/d/1TLpySDsFtBFn2ClxYjjaDzEbmjpPWFs7/view"
-                target="_blank" class="ds-button">Report</a> -->
-                <a href="https://github.com/Pranav-K-Nair/Fraud-Detection"
-                target="_blank" class="ds-button">GitHub</a>
+                <p>
+                  But here's where it gets really cool: the system doesn't just throw together generic 
+                  templates. It uses ChromaDB vector database to perform semantic search, intelligently 
+                  matching your portfolio projects with the job's specific requirements. Need to highlight 
+                  your machine learning experience for a data science role? Done. Want to emphasize your 
+                  web development chops for a full-stack position? Already on it. The AI automatically 
+                  identifies which of your projects deserves the spotlight for each unique application.
+                </p>
+                <p>
+                  It's all wrapped up in a sleek Streamlit web application that handles everything, just 
+                  paste a job posting URL, upload your resume, and watch as the magic of prompt engineering 
+                  transforms raw data into a polished, personalized email ready to land in a recruiter's 
+                  inbox. Because why spend hours crafting the perfect email when you can teach an AI to 
+                  do it in seconds?
+                </p>
+                <a href="https://github.com/Pranav-K-Nair/LLM-Cold-Email-Generator" target="_blank"
+                  class="ds-button">GitHub</a>
               </section>
             </div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 d-flex">
-              <figure class="ds-image-container">
-                <img src="assets/images/fraud_det.png" />
-              </figure>
+              <figure class="ds-image-container"><img src="assets/images/cold_email_gen.png" /></figure>
             </div>
           </div>
         </div>
@@ -438,6 +459,41 @@
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 d-flex">
               <figure class="ds-image-container">
                 <img src="assets/images/car.avif" />
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <!-- FRUAD DETECTION SYSTEM -->
+
+        <div class="ds-work-list">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+              <section>
+                <h3 class="ds-work-title">Fraud Detection System</h3>
+                <p>
+                  DON'T REDEEM THE GIFT CARD. But more importantly, how do you (or a bank)
+                  tell whether there's a fraudster scamming people out of their money? Into
+                  this project, I dove deep into the world of financial fraud detection to
+                  build a machine learning system that can spot suspicious transactions before
+                  they empty someone's bank account. Starting with exploratory data analysis
+                  and hypothesis testing, I engineered features and preprocessed the dataset
+                  to handle both numerical and categorical data. After establishing a baseline,
+                  I put multiple ML models to the test, comparing their performance through
+                  cross-validation. XGBoost emerged as the champion, so I fine-tuned it using
+                  hyperparameter optimization and deployed the final model through a Streamlit
+                  web application. Because sometimes the best defense against fraud is a good
+                  algorithm that never sleeps!
+                </p>
+                <!-- <a href="https://drive.google.com/file/d/1TLpySDsFtBFn2ClxYjjaDzEbmjpPWFs7/view"
+                target="_blank" class="ds-button">Report</a> -->
+                <a href="https://github.com/Pranav-K-Nair/Fraud-Detection"
+                target="_blank" class="ds-button">GitHub</a>
+              </section>
+            </div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 d-flex">
+              <figure class="ds-image-container">
+                <img src="assets/images/fraud_det.png" />
               </figure>
             </div>
           </div>
